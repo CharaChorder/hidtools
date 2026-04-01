@@ -23,6 +23,12 @@ Or from the Winget console:
     > winget install Microsoft.HIDTools.Waratah
     > waratahcmd --source Z:\foo.wara
 
+## Install from Nix Flake
+
+```nix
+TODO
+```
+
 # Waratah
 
 > What A Really Awesome Tool for Authoring HIDs
