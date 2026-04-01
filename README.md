@@ -26,7 +26,42 @@ Or from the Winget console:
 ## Install from Nix Flake
 
 ```nix
-TODO
+{
+  inputs = {
+    flake-utils.url = "github:numtide/flake-utils";
+    nixpkgs.url = "github:NixOS/nixpkgs";
+    waratah-flake = {
+      url = "github:CharaChorder/hidtools";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+  };
+
+  outputs =
+    {
+      self,
+      nixpkgs,
+      flake-utils,
+      waratah-flake,
+    }:
+    flake-utils.lib.eachDefaultSystem (
+      system:
+      let
+        pkgs = import nixpkgs {
+          inherit system;
+          overlays = [
+            (final: prev: {
+              waratah = waratah-flake.legacyPackages.${system}.waratah;
+            })
+          ];
+        };
+      in
+      rec {
+        devShell = pkgs.mkShell {
+          buildInputs = with pkgs; [ waratah ];
+        };
+      }
+    );
+}
 ```
 
 # Waratah
