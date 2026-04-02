@@ -57,7 +57,7 @@ jobs:
       - name: Tar files
         if: ${{ matrix.os != 'win' }}
         run: |
-          tar cv "Waratah/WaratahCmd/bin/Release/net8.0/${{ matrix.os }}-${{ matrix.arch }}/publish/" \
+          tar cvf - "Waratah/WaratahCmd/bin/Release/net8.0/${{ matrix.os }}-${{ matrix.arch }}/publish/*" \
             | gzip --best > waratah-${{ matrix.os }}-${{ matrix.arch }}.tar.gz
 
       - name: Upload Tar
