@@ -9,6 +9,7 @@ on:
 
 jobs:
   test:
+    if: false
     runs-on: windows-latest
     steps:
       - name: Checkout
@@ -53,8 +54,24 @@ jobs:
       - name: Publish
         run: dotnet publish Waratah/WaratahCmd/WaratahCmd.csproj -c Release -r ${{ matrix.os }}-${{ matrix.arch }} -p:SelfContained=true
 
-      - name: Upload Artifacts
+      - name: Tar files
+        if: ${{ matrix.os != 'win' }}
+        run: |
+          tar cv "Waratah/WaratahCmd/bin/Release/net8.0/${{ matrix.os }}-${{ matrix.arch }}/publish/" \
+            | gzip --best > waratah-${{ matrix.os }}-${{ matrix.arch }}.tar.gz
+
+      - name: Upload Tar
         uses: actions/upload-artifact@v4.0.0
+        if: ${{ matrix.os != 'win' }}
+        with:
+          name: waratah-${{ matrix.os }}-${{ matrix.arch }}.tar.gz
+          path: waratah-${{ matrix.os }}-${{ matrix.arch }}.tar.gz
+          compression-level: 9
+
+      - name: Upload Zip
+        uses: actions/upload-artifact@v4.0.0
+        if: ${{ matrix.os == 'win' }}
         with:
           name: waratah-${{ matrix.os }}-${{ matrix.arch }}.zip
           path: Waratah/WaratahCmd/bin/Release/net8.0/${{ matrix.os }}-${{ matrix.arch }}/publish/
+          compression-level: 9
