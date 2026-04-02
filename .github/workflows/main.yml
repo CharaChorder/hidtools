@@ -26,6 +26,7 @@ jobs:
         with:
           dotnet-version: 8.x
           cache: true
+          cache-dependency-path: Waratah/*/packages.lock.json
 
       - name: Restore
         run: dotnet restore Waratah/Waratah.sln --locked-mode
