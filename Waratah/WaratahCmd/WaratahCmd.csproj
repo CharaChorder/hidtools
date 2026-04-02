@@ -5,6 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <RootNamespace>WaratahCmd</RootNamespace>
     <AssemblyName>WaratahCmd</AssemblyName>
+
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <Deterministic>true</Deterministic>
@@ -31,14 +32,15 @@
 
   <PropertyGroup Condition="'$(Configuration)'=='Release'">
     <DefineConstants>TRACE</DefineConstants>
-    <DebugType>portable</DebugType>
+    <DebugType>embedded</DebugType>
     <Optimize>true</Optimize>
     <PlatformTarget>AnyCPU</PlatformTarget>
+    <PublishSingleFile>true</PublishSingleFile>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="CommandLineParser" Version="2.6.0" />
-    <!--<PackageReference Include="ILRepack.Lib.MSBuild.Task" Version="2.0.31" />-->
+    <PackageReference Include="Colorful.Console" Version="1.2.9.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -50,21 +52,4 @@
     <None Include="App.config" />
     <None Include="Properties\app.manifest" />
   </ItemGroup>
-
-  <!-- TODO: broken -->
-
-  <!--<Target Name="AfterBuild" AfterTargets="Build" Condition="'$(Configuration)'=='Release'">
-    <ItemGroup>
-      <AssembliesToMerge Include="$(OutputPath)*.dll" Exclude="$(OutputPath)$(AssemblyName).dll" />
-    </ItemGroup>
-
-    <Message Importance="high" Text="Merging binaries into single assembly (with ILRepack)" />
-
-    <ILRepack
-      OutputFile="$(OutputPath)$(AssemblyName).exe"
-      InputAssemblies="$(TargetPath);@(AssembliesToMerge)"
-      Internalize="true"
-      TargetKind="Exe"
-      Union="true" />
-  </Target>-->
 </Project>

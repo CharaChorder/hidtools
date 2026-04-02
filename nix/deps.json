@@ -5,6 +5,11 @@
     "hash": "sha256-6JlngYkBFi0Rz1wPOpj25InJ8WlXId+ILOMylAkcyn8="
   },
   {
+    "pname": "Colorful.Console",
+    "version": "1.2.9",
+    "hash": "sha256-036l6cCaqM2rUsz1LtC8FrHR7Wx4TZDxfLKTeWpgUzk="
+  },
+  {
     "pname": "CommandLineParser",
     "version": "2.6.0",
     "hash": "sha256-dr28mRyfQWzB53WxfOXXbND4UdyvrwlsvEM2mLd/TdU="
@@ -15,14 +20,24 @@
     "hash": "sha256-4+RqarqStrU5E7WvYu9RRS2ljSNzWEym1imbNAmzmSE="
   },
   {
-    "pname": "ILRepack.Lib.MSBuild.Task",
-    "version": "2.0.31",
-    "hash": "sha256-X6XoGi4jM/hEDanWK+kbLs6nDwxgsFjDIMuaDVm8PHo="
+    "pname": "Microsoft.CSharp",
+    "version": "4.0.1",
+    "hash": "sha256-0huoqR2CJ3Z9Q2peaKD09TV3E6saYSqDGZ290K8CrH8="
+  },
+  {
+    "pname": "Microsoft.NETCore.Platforms",
+    "version": "1.0.1",
+    "hash": "sha256-mZotlGZqtrqDSoBrZhsxFe6fuOv5/BIo0w2Z2x0zVAU="
   },
   {
     "pname": "Microsoft.NETCore.Platforms",
     "version": "1.1.0",
     "hash": "sha256-FeM40ktcObQJk4nMYShB61H/E8B7tIKfl9ObJ0IOcCM="
+  },
+  {
+    "pname": "Microsoft.NETCore.Targets",
+    "version": "1.0.1",
+    "hash": "sha256-lxxw/Gy32xHi0fLgFWNj4YTFBSBkjx5l6ucmbTyf7V4="
   },
   {
     "pname": "Microsoft.NETCore.Targets",
@@ -286,8 +301,18 @@
   },
   {
     "pname": "System.Collections",
+    "version": "4.0.11",
+    "hash": "sha256-puoFMkx4Z55C1XPxNw3np8nzNGjH+G24j43yTIsDRL0="
+  },
+  {
+    "pname": "System.Collections",
     "version": "4.3.0",
     "hash": "sha256-afY7VUtD6w/5mYqrce8kQrvDIfS2GXDINDh73IjxJKc="
+  },
+  {
+    "pname": "System.Collections.Concurrent",
+    "version": "4.0.12",
+    "hash": "sha256-zIEM7AB4SyE9u6G8+o+gCLLwkgi6+3rHQVPdn/dEwB8="
   },
   {
     "pname": "System.Collections.Concurrent",
@@ -296,8 +321,18 @@
   },
   {
     "pname": "System.Console",
+    "version": "4.0.0",
+    "hash": "sha256-jtZfT/TpJtLisV/y5Mk3IfCpE79zwhBYXtyGP9jC3Xo="
+  },
+  {
+    "pname": "System.Console",
     "version": "4.3.0",
     "hash": "sha256-Xh3PPBZr0pDbDaK8AEHbdGz7ePK6Yi1ZyRWI1JM6mbo="
+  },
+  {
+    "pname": "System.Diagnostics.Debug",
+    "version": "4.0.11",
+    "hash": "sha256-P+rSQJVoN6M56jQbs76kZ9G3mAWFdtF27P/RijN8sj4="
   },
   {
     "pname": "System.Diagnostics.Debug",
@@ -326,8 +361,23 @@
   },
   {
     "pname": "System.Diagnostics.Tracing",
+    "version": "4.1.0",
+    "hash": "sha256-JA0jJcLbU3zh52ub3zweob2EVHvxOqiC6SCYHrY5WbQ="
+  },
+  {
+    "pname": "System.Diagnostics.Tracing",
     "version": "4.3.0",
     "hash": "sha256-hCETZpHHGVhPYvb4C0fh4zs+8zv4GPoixagkLZjpa9Q="
+  },
+  {
+    "pname": "System.Dynamic.Runtime",
+    "version": "4.0.11",
+    "hash": "sha256-qWqFVxuXioesVftv2RVJZOnmojUvRjb7cS3Oh3oTit4="
+  },
+  {
+    "pname": "System.Globalization",
+    "version": "4.0.11",
+    "hash": "sha256-rbSgc2PIEc2c2rN6LK3qCREAX3DqA2Nq1WcLrZYsDBw="
   },
   {
     "pname": "System.Globalization",
@@ -346,6 +396,11 @@
   },
   {
     "pname": "System.IO",
+    "version": "4.1.0",
+    "hash": "sha256-V6oyQFwWb8NvGxAwvzWnhPxy9dKOfj/XBM3tEC5aHrw="
+  },
+  {
+    "pname": "System.IO",
     "version": "4.3.0",
     "hash": "sha256-ruynQHekFP5wPrDiVyhNiRIXeZ/I9NpjK5pU+HPDiRY="
   },
@@ -361,8 +416,18 @@
   },
   {
     "pname": "System.IO.FileSystem",
+    "version": "4.0.1",
+    "hash": "sha256-4VKXFgcGYCTWVXjAlniAVq0dO3o5s8KHylg2wg2/7k0="
+  },
+  {
+    "pname": "System.IO.FileSystem",
     "version": "4.3.0",
     "hash": "sha256-vNIYnvlayuVj0WfRfYKpDrhDptlhp1pN8CYmlVd2TXw="
+  },
+  {
+    "pname": "System.IO.FileSystem.Primitives",
+    "version": "4.0.1",
+    "hash": "sha256-IpigKMomqb6pmYWkrlf0ZdpILtRluX2cX5sOKVW0Feg="
   },
   {
     "pname": "System.IO.FileSystem.Primitives",
@@ -371,8 +436,18 @@
   },
   {
     "pname": "System.Linq",
+    "version": "4.1.0",
+    "hash": "sha256-ZQpFtYw5N1F1aX0jUK3Tw+XvM5tnlnshkTCNtfVA794="
+  },
+  {
+    "pname": "System.Linq",
     "version": "4.3.0",
     "hash": "sha256-R5uiSL3l6a3XrXSSL6jz+q/PcyVQzEAByiuXZNSqD/A="
+  },
+  {
+    "pname": "System.Linq.Expressions",
+    "version": "4.1.0",
+    "hash": "sha256-7zqB+FXgkvhtlBzpcZyd81xczWP0D3uWssyAGw3t7b4="
   },
   {
     "pname": "System.Linq.Expressions",
@@ -401,6 +476,11 @@
   },
   {
     "pname": "System.ObjectModel",
+    "version": "4.0.12",
+    "hash": "sha256-MudZ/KYcvYsn2cST3EE049mLikrNkmE7QoUoYKKby+s="
+  },
+  {
+    "pname": "System.ObjectModel",
     "version": "4.3.0",
     "hash": "sha256-gtmRkWP2Kwr3nHtDh0yYtce38z1wrGzb6fjm4v8wN6Q="
   },
@@ -411,8 +491,18 @@
   },
   {
     "pname": "System.Reflection",
+    "version": "4.1.0",
+    "hash": "sha256-idZHGH2Yl/hha1CM4VzLhsaR8Ljo/rV7TYe7mwRJSMs="
+  },
+  {
+    "pname": "System.Reflection",
     "version": "4.3.0",
     "hash": "sha256-NQSZRpZLvtPWDlvmMIdGxcVuyUnw92ZURo0hXsEshXY="
+  },
+  {
+    "pname": "System.Reflection.Emit",
+    "version": "4.0.1",
+    "hash": "sha256-F1MvYoQWHCY89/O4JBwswogitqVvKuVfILFqA7dmuHk="
   },
   {
     "pname": "System.Reflection.Emit",
@@ -421,8 +511,18 @@
   },
   {
     "pname": "System.Reflection.Emit.ILGeneration",
+    "version": "4.0.1",
+    "hash": "sha256-YG+eJBG5P+5adsHiw/lhJwvREnvdHw6CJyS8ZV4Ujd0="
+  },
+  {
+    "pname": "System.Reflection.Emit.ILGeneration",
     "version": "4.3.0",
     "hash": "sha256-mKRknEHNls4gkRwrEgi39B+vSaAz/Gt3IALtS98xNnA="
+  },
+  {
+    "pname": "System.Reflection.Emit.Lightweight",
+    "version": "4.0.1",
+    "hash": "sha256-uVvNOnL64CPqsgZP2OLqNmxdkZl6Q0fTmKmv9gcBi+g="
   },
   {
     "pname": "System.Reflection.Emit.Lightweight",
@@ -431,8 +531,18 @@
   },
   {
     "pname": "System.Reflection.Extensions",
+    "version": "4.0.1",
+    "hash": "sha256-NsfmzM9G/sN3H8X2cdnheTGRsh7zbRzvegnjDzDH/FQ="
+  },
+  {
+    "pname": "System.Reflection.Extensions",
     "version": "4.3.0",
     "hash": "sha256-mMOCYzUenjd4rWIfq7zIX9PFYk/daUyF0A8l1hbydAk="
+  },
+  {
+    "pname": "System.Reflection.Primitives",
+    "version": "4.0.1",
+    "hash": "sha256-SFSfpWEyCBMAOerrMCOiKnpT+UAWTvRcmoRquJR6Vq0="
   },
   {
     "pname": "System.Reflection.Primitives",
@@ -441,8 +551,18 @@
   },
   {
     "pname": "System.Reflection.TypeExtensions",
+    "version": "4.1.0",
+    "hash": "sha256-R0YZowmFda+xzKNR4kKg7neFoE30KfZwp/IwfRSKVK4="
+  },
+  {
+    "pname": "System.Reflection.TypeExtensions",
     "version": "4.3.0",
     "hash": "sha256-4U4/XNQAnddgQIHIJq3P2T80hN0oPdU2uCeghsDTWng="
+  },
+  {
+    "pname": "System.Resources.ResourceManager",
+    "version": "4.0.1",
+    "hash": "sha256-cZ2/3/fczLjEpn6j3xkgQV9ouOVjy4Kisgw5xWw9kSw="
   },
   {
     "pname": "System.Resources.ResourceManager",
@@ -451,8 +571,18 @@
   },
   {
     "pname": "System.Runtime",
+    "version": "4.1.0",
+    "hash": "sha256-FViNGM/4oWtlP6w0JC0vJU+k9efLKZ+yaXrnEeabDQo="
+  },
+  {
+    "pname": "System.Runtime",
     "version": "4.3.0",
     "hash": "sha256-51813WXpBIsuA6fUtE5XaRQjcWdQ2/lmEokJt97u0Rg="
+  },
+  {
+    "pname": "System.Runtime.Extensions",
+    "version": "4.1.0",
+    "hash": "sha256-X7DZ5CbPY7jHs20YZ7bmcXs9B5Mxptu/HnBUvUnNhGc="
   },
   {
     "pname": "System.Runtime.Extensions",
@@ -461,8 +591,18 @@
   },
   {
     "pname": "System.Runtime.Handles",
+    "version": "4.0.1",
+    "hash": "sha256-j2QgVO9ZOjv7D1het98CoFpjoYgxjupuIhuBUmLLH7w="
+  },
+  {
+    "pname": "System.Runtime.Handles",
     "version": "4.3.0",
     "hash": "sha256-KJ5aXoGpB56Y6+iepBkdpx/AfaJDAitx4vrkLqR7gms="
+  },
+  {
+    "pname": "System.Runtime.InteropServices",
+    "version": "4.1.0",
+    "hash": "sha256-QceAYlJvkPRJc/+5jR+wQpNNI3aqGySWWSO30e/FfQY="
   },
   {
     "pname": "System.Runtime.InteropServices",
@@ -531,6 +671,11 @@
   },
   {
     "pname": "System.Text.Encoding",
+    "version": "4.0.11",
+    "hash": "sha256-PEailOvG05CVgPTyKLtpAgRydlSHmtd5K0Y8GSHY2Lc="
+  },
+  {
+    "pname": "System.Text.Encoding",
     "version": "4.3.0",
     "hash": "sha256-GctHVGLZAa/rqkBNhsBGnsiWdKyv6VDubYpGkuOkBLg="
   },
@@ -541,13 +686,28 @@
   },
   {
     "pname": "System.Text.RegularExpressions",
+    "version": "4.1.0",
+    "hash": "sha256-x6OQN6MCN7S0fJ6EFTfv4rczdUWjwuWE9QQ0P6fbh9c="
+  },
+  {
+    "pname": "System.Text.RegularExpressions",
     "version": "4.3.0",
     "hash": "sha256-VLCk1D1kcN2wbAe3d0YQM/PqCsPHOuqlBY1yd2Yo+K0="
   },
   {
     "pname": "System.Threading",
+    "version": "4.0.11",
+    "hash": "sha256-mob1Zv3qLQhQ1/xOLXZmYqpniNUMCfn02n8ZkaAhqac="
+  },
+  {
+    "pname": "System.Threading",
     "version": "4.3.0",
     "hash": "sha256-ZDQ3dR4pzVwmaqBg4hacZaVenQ/3yAF/uV7BXZXjiWc="
+  },
+  {
+    "pname": "System.Threading.Tasks",
+    "version": "4.0.11",
+    "hash": "sha256-5SLxzFg1df6bTm2t09xeI01wa5qQglqUwwJNlQPJIVs="
   },
   {
     "pname": "System.Threading.Tasks",

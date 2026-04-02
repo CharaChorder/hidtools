@@ -29,7 +29,7 @@
 
   <PropertyGroup Condition="'$(Configuration)'=='Release'">
     <DefineConstants>TRACE</DefineConstants>
-    <DebugType>portable</DebugType>
+    <DebugType>embedded</DebugType>
     <Optimize>true</Optimize>
   </PropertyGroup>
 
