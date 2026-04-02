@@ -6,7 +6,7 @@
     <RootNamespace>WaratahCmd</RootNamespace>
     <AssemblyName>WaratahCmd</AssemblyName>
 
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <Deterministic>true</Deterministic>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

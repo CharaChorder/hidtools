@@ -6,7 +6,7 @@
     <RootNamespace>Microsoft.HidTools.HidSpecification</RootNamespace>
     <AssemblyName>Microsoft.HidTools.HidSpecification</AssemblyName>
     <Deterministic>true</Deterministic>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
 
     <Company>Microsoft</Company>

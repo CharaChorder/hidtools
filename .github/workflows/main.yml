@@ -8,7 +8,24 @@ on:
   workflow_dispatch:
 
 jobs:
-  # TODO: test
+  test:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Setup
+        uses: actions/setup-dotnet@v5
+        with:
+          dotnet-version: 8.x
+          cache: true
+          cache-dependency-path: Waratah/*/packages.lock.json
+
+      - name: Restore
+        run: dotnet restore Waratah\Waratah.sln --locked-mode
+
+      - name: Test
+        run: dotnet test Waratah\Waratah.sln
 
   build:
     runs-on: ubuntu-latest
@@ -16,7 +33,6 @@ jobs:
       matrix:
         arch: [x64, arm64]
         os: [win, osx, linux]
-
     steps:
       - name: Checkout
         uses: actions/checkout@v2
