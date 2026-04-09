@@ -15,7 +15,7 @@ buildDotnetModule {
     hash = "sha256-Zehb2MsUan7lyQW/WrChKm1pJdHIZrrWCady+9/rjfU=";
   };
 
-  projectFile = "Waratah/Waratah.sln";
+  projectFile = "Waratah/WaratahCmd/WaratahCmd.csproj";
   nugetDeps = ./deps.json;
 
   dotnet-sdk = dotnetCorePackages.sdk_8_0;

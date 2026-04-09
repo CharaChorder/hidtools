@@ -50,16 +50,6 @@
     "hash": "sha256-mBNDmPXNTW54XLnPAUwBRvkIORFM7/j0D0I2SyQPDEg="
   },
   {
-    "pname": "MSTest.TestAdapter",
-    "version": "1.3.2",
-    "hash": "sha256-/+5giz1Wh9lIhZFtiMGatPEXP6LcCBPdoSSnPDqcuuY="
-  },
-  {
-    "pname": "MSTest.TestFramework",
-    "version": "1.3.2",
-    "hash": "sha256-BGOunL9WLzvIL4eP0zzS/NEXzF/PeRpbrVaPTYJAcyI="
-  },
-  {
     "pname": "NETStandard.Library",
     "version": "1.6.1",
     "hash": "sha256-iNan1ix7RtncGWC9AjAZ2sk70DoxOsmEOgQ10fXm4Pw="
@@ -345,19 +335,9 @@
     "hash": "sha256-OFJRb0ygep0Z3yDBLwAgM/Tkfs4JCDtsNhwDH9cd1Xw="
   },
   {
-    "pname": "System.Diagnostics.TextWriterTraceListener",
-    "version": "4.3.0",
-    "hash": "sha256-gx3IHPvPNRmwpLwtswu12U/ow4f/7OPAeHxyMxw5qyU="
-  },
-  {
     "pname": "System.Diagnostics.Tools",
     "version": "4.3.0",
     "hash": "sha256-gVOv1SK6Ape0FQhCVlNOd9cvQKBvMxRX9K0JPVi8w0Y="
-  },
-  {
-    "pname": "System.Diagnostics.TraceSource",
-    "version": "4.3.0",
-    "hash": "sha256-xpxwaXsRcgso8Gj0cqY4+Hvvz6vZkmEMh5/J204j3M8="
   },
   {
     "pname": "System.Diagnostics.Tracing",
